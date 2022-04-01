@@ -1,0 +1,113 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.div-register {
+    background-color: #318F80;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.inputs {
+    margin-bottom: 15px;
+    border: 1px solid #1217E0;
+    border-radius: 2px;
+    width: 210px;
+    height: 20px;
+    background-color: #C1F0EC;
+    padding-left: 5px;
+}
+
+#genre {
+    margin-bottom: 5px;
+}
+
+#accounts {
+    margin-bottom: 10px;
+}
+
+#profile-photo {
+    margin-bottom: 15px;
+}
+
+#bio {
+    margin-bottom: 15px;
+    border: 1px solid #1217E0;
+    border-radius: 2px;
+    width: 210px;
+    height: 50px;
+    background-color: #C1F0EC;
+    padding-left: 2px;
+}
+
+.inputs-2 {
+    margin-bottom: 15px;
+    border: 1px solid #1217E0;
+}
+
+#input-age {
+    margin-bottom: 15px;
+    width: 50px;
+    height: 20px;
+    background-color: #C1F0EC;
+    padding-left: 2px;
+}
+
+.reset-button {
+    border: 1px solid #1217E0;
+    background-color: #12FFE0;
+    width: 100px;
+    height: 25px;
+    font-weight: 600;
+}
+
+.submit-button {
+    border: 1px solid #1217E0;
+    background-color: #12FFE0;
+    width: 100px;
+    height: 25px;
+    font-weight: 600;
+}
+
+label {
+    font-weight: 600;
+    font-style: italic;
+    color: #43FFFF;
+}
+
+#instagram {
+    color: #FF0082;
+}
+
+#facebook {
+    color: #4337FF;
+}
+
+#youtube {
+    color: #E00701;
+}
+
+.reset-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #FF0701;
+    color: #FFFFFF;
+    border-color: #12FFE0;
+}
+
+.submit-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #50FF00;
+    color: #FFFFFF;
+    border-color: #12FFE0;
+}

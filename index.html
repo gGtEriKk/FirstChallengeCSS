@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,
+    900&family=Nunito:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&family=Roboto:ital,
+    wght@0,100;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Desafio Formulário de Cadastro</title>
+</head>
+
+<body>
+
+    <h4 class="register">Cadastro</h4>
+
+    <div class="div-register">
+
+        <form type="submit" action="" method="post" enctype="multipart/form-data">
+
+            <div>
+                <label for="Name">Nome</label>
+            </div>
+            <div>
+                <input class="inputs" type="text" name="Name" placeholder="Digite seu nome" autocomplete="name"
+                    size="15" id="Name" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+            </div>
+            <div>
+                <input class="inputs" type="email" name="E-mail" placeholder="Digite seu e-mail" autocomplete="email"
+                    size="15" id="email" required>
+            </div>
+
+            <div>
+                <label for="idade">Idade</label>
+            </div>
+            <div>
+                <input id="input-age" type="number" min="12" name="age" id="idade" required>
+            </div>
+
+            <div>
+                <label for="calendar">Data de Nascimento</label>
+            </div>
+            <div>
+                <input class="inputs" type="date" name="Nascimento" id="calendar" required>
+            </div>
+
+            <div id="accounts">
+                <label for="IG-account" for="FB-account" for="YT-account">Onde você possui
+                    conta:
+                </label>
+            </div>
+            <div>
+                <label id="instagram">
+                    <input class="inputs-2" type="checkbox" name="IG-account">
+                    Instagram
+                </label>
+                <label id="facebook">
+                    <input class="inputs-2" type="checkbox" name="FB-account">
+                    Facebook
+                </label>
+                <label id="youtube">
+                    <input class="inputs-2" type="checkbox" name="YT-account">
+                    YouTube
+                </label>
+            </div>
+
+            <div id="genre">
+                <label for="sex">Sexo</label>
+            </div>
+
+            <div>
+                <label>
+                    <input class="inputs-2" type="radio" name="sex" value="masc">
+                    Masculino
+                </label>
+                <label>
+                    <input class="inputs-2" type="radio" name="sex" value="fem">
+                    Feminino
+                </label>
+            </div>
+
+            <div>
+                <label>Cor dos Olhos
+                    <input class="inputs-2" type="color" name="cor-dos-olhos">
+                </label>
+            </div>
+
+            <div>
+                <label for="bio">Biografia</label>
+            </div>
+            <div>
+                <textarea id=bio name="bio"></textarea>
+            </div>
+
+            <div>
+                <label for="file">Foto do Perfil</label>
+            </div>
+            <div>
+                <input id=profile-photo type="file" name="file" accept="image/*">
+            </div>
+
+            <div>
+                <label for="Phone-number">Telefone</label>
+            </div>
+            <div>
+                <input class="inputs" type="tel" inputmode="numeric" name="Phone-number" autocomplete="tel" size="15">
+            </div>
+
+            <div>
+                <label for="Facebook-url">Link do Perfil do Facebook</label>
+            </div>
+            <div>
+                <input class="inputs" type="url" name="Facebook-url" size="15">
+            </div>
+
+            <div>
+                <label for="password">Senha</label>
+            </div>
+            <div>
+                <input class="inputs" type="password" name="password" minlenght="6" maxlenght="8" size="15" required>
+            </div>
+
+            <div>
+                <button class="reset-button" type="reset" name="botão-de-reset">Limpar</button>
+                <button class="submit-button" type="submit" name="botão-de-enviar-dados">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
